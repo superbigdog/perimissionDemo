@@ -6,7 +6,8 @@ import org.springframework.stereotype.Repository;
 
 import java.util.List;
 
-@Component("deptDao")
+//@Component("deptDao")
+@Repository
 public interface IDeptDao {
 
     /**
