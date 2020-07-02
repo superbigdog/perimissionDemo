@@ -12,7 +12,6 @@ import java.util.List;
 
 
 @RunWith(SpringRunner.class)
-@SpringBootTest
 @MapperScan("com.testwork.demo.dao")
 class IDeptServiceTest {
     @Autowired

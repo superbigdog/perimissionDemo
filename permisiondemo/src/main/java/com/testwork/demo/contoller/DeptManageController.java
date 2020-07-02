@@ -9,7 +9,8 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 import java.util.List;
 
-@Controller("/dept")
+@Controller
+@RequestMapping("/dept")
 public class DeptManageController {
 
     @Autowired
